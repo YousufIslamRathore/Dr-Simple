@@ -255,6 +255,9 @@
   width: 20px;
   height: 20px;
 }
+.dashboardTitleSection i {
+
+}
 .dashboardTitleSection > div > p {
   font-size: 14px;
   color: #273240;
@@ -299,16 +302,16 @@
   padding-left: 60px;
   width: 200px;
 }
-.table1FirstColumn i[class~="fa-square-check"], .table1FirstColumn i[class~="fa-square"] , .table2FirstColumn i[class~="fa-square-check"], .table2FirstColumn i[class~="fa-square"] {
+.dashboardTitleSection i[class~="fa-square"], .dashboardTitleSection i[class~="fa-square-check"], .table1FirstColumn i[class~="fa-square-check"], .table1FirstColumn i[class~="fa-square"] , .table2FirstColumn i[class~="fa-square-check"], .table2FirstColumn i[class~="fa-square"] {
   font-size: 20px;
   color: #979797;
   /* width: 100%; */
 }
-.table1FirstColumn i[class~="fa-star"] {
+.dashboardTitleSection i, .table1FirstColumn i[class~="fa-star"] {
   font-size: 18px;
   color: #979797;
 }
-.table1FirstColumn i[class~="fa-solid"], .table2FirstColumn i[class~="fa-solid"] {
+.dashboardTitleSection i[class~="fa-solid"], .table1FirstColumn i[class~="fa-solid"], .table2FirstColumn i[class~="fa-solid"] {
   color: #33cccc;
 }
 .table1SecondColumn img {

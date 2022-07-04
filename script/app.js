@@ -9,18 +9,18 @@ const showHideFunction = () => {
 };
 
 const checkToggler = (box) => {
-  if (box.className == "fa-regular fa-square") {
-    box.className = "fa-solid fa-square-check";
+  if (box.className == "fa-regular fa-square forAllCheck") {
+    box.className = "fa-solid fa-square-check forAllCheck";
   } else {
-    box.className = "fa-regular fa-square";
+    box.className = "fa-regular fa-square forAllCheck";
   }
 };
 
 const starToggler = (e) => {
-  if (e.className == "fa-regular fa-star") {
-    e.className = "fa-solid fa-star";
+  if (e.className == "fa-regular fa-star forAllStar") {
+    e.className = "fa-solid fa-star forAllStar";
   } else {
-    e.className = "fa-regular fa-star";
+    e.className = "fa-regular fa-star forAllStar";
   }
 };
 
@@ -62,12 +62,68 @@ const monthChanger = (element, key) => {
 
 var forAllCheck = document.getElementsByClassName("forAllCheck");
 const allCheckToggler = (e) => {
-    e.className =  "fa-solid fa-square-check";
-    console.log(forAllCheck)
-
-    for(let i = 0 ; i < forAllCheck.length ; i++) {
-        // if(forAllCheck[i].className == "fa-regular fa-square") {
-            forAllCheck[i].className =  "fa-solid fa-square-check";
-        // }
+  if (e.className == "fa-solid fa-square-check") {
+    e.className = "fa-regular fa-square";
+    for (let i = 0; i < forAllCheck.length; i++) {
+      forAllCheck[i].className = "fa-regular fa-square forAllCheck";
+      forAllCheck[i].className = "fa-regular fa-square forAllCheck";
+      forAllCheck[i].className = "fa-regular fa-square forAllCheck";
+      forAllCheck[i].className = "fa-regular fa-square forAllCheck";
+      forAllCheck[i].className = "fa-regular fa-square forAllCheck";
+      forAllCheck[i].className = "fa-regular fa-square forAllCheck";
+      forAllCheck[i].className = "fa-regular fa-square forAllCheck";
+      forAllCheck[i].className = "fa-regular fa-square forAllCheck";
+      forAllCheck[i].className = "fa-regular fa-square forAllCheck";
+      forAllCheck[i].className = "fa-regular fa-square forAllCheck";
     }
+  } else {
+    e.className = "fa-solid fa-square-check";
+    for (let i = 0; i < forAllCheck.length; i++) {
+      forAllCheck[i].className = "fa-solid fa-square-check forAllCheck";
+      forAllCheck[i].className = "fa-solid fa-square-check forAllCheck";
+      forAllCheck[i].className = "fa-solid fa-square-check forAllCheck";
+      forAllCheck[i].className = "fa-solid fa-square-check forAllCheck";
+      forAllCheck[i].className = "fa-solid fa-square-check forAllCheck";
+      forAllCheck[i].className = "fa-solid fa-square-check forAllCheck";
+      forAllCheck[i].className = "fa-solid fa-square-check forAllCheck";
+      forAllCheck[i].className = "fa-solid fa-square-check forAllCheck";
+      forAllCheck[i].className = "fa-solid fa-square-check forAllCheck";
+      forAllCheck[i].className = "fa-solid fa-square-check forAllCheck";
+    }
+  }
+};
+
+var forAllStar = document.getElementsByClassName("forAllStar");
+const allStarToggler = (s) => {
+  if (s.className == "fa-solid fa-star") {
+    s.className = "fa-regular fa-star";
+    for (let i = 0; i < forAllCheck.length; i++) {
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+      forAllStar[i].className = "fa-regular fa-star forAllStar";
+    }
+  } else {
+    s.className = "fa-solid fa-star";
+    for (let i = 0; i < forAllCheck.length; i++) {
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+      forAllStar[i].className = "fa-solid fa-star forAllStar";
+    }
+  }
 };
