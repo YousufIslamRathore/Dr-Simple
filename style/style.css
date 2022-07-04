@@ -387,6 +387,9 @@
   align-items: center;
   width: 100%;
 }
+.table2 i {
+  cursor: pointer;
+}
 .table2 div {
   display: flex;
   align-items: center;
