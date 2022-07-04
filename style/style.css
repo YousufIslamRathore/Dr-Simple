@@ -460,6 +460,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 5px;
+  cursor: pointer;
 }
 .calendarMonthTitle p {
   font-size: 20px;
@@ -495,9 +496,9 @@
   align-items: center;
   padding: 5px;
 }
-.calenderFirstRow td {
-  /* height: 120px; */
-}
+/* .calenderFirstRow td {
+   height: 120px;
+} */
 .calendarWholeContainer td section div {
   /* width: 100%; */
   display: flex;
