@@ -50,7 +50,7 @@
                 </div>
                 <div>
                     <img src="./image/lastIcon.png" alt="">
-                    <p>Covid-19  Impfung</p>
+                    <p>Covid-19 Impfung</p>
                 </div>
             </section>
             <div style="color: white;">
@@ -61,13 +61,15 @@
             <header class="dashboardNavSection">
                 <h2>Dashboard</h2>
                 <div>
-                    <section>
-                        <img src="./image/Dashboard/Nav Section/search.png" width="20px" height="19px" alt="">
-                        <input type="text" placeholder="Suchen">
-                    </section>
-                    <div>
-                        <img src="./image/Dashboard/Nav Section/setting.png" width="22px" height="22px" alt="">
-                    </div>
+                    <form action="">
+                        <section>
+                            <img src="./image/Dashboard/Nav Section/search.png" width="20px" height="19px" alt="">
+                            <input type="text" placeholder="Suchen">
+                        </section>
+                        <div>
+                            <img src="./image/Dashboard/Nav Section/setting.png" width="22px" height="22px" alt="">
+                        </div>
+                    </form>
                 </div>
                 <section class="dashboardNavEndContainer">
                     <div>
@@ -83,13 +85,24 @@
             </header>
             <main>
                 <section class="dashboardTitleSection">
-                    <div><i class="fa-regular fa-square" onclick="allCheckToggler(this)" style="cursor: pointer;"></i></div>
-                    <div style="margin-left: 25px;"><i class="fa-regular fa-star" onclick="allStarToggler(this)" style="cursor: pointer;"></i></div>
-                    <div style="margin-left: 60px;"><p>Patient</p></div>
-                    <div style="margin-left: 160px;"><p>Title</p></div>
-                    <div style="margin-left: 355px;"><p>Status</p></div>
-                    <div style="margin-left: 150px;"><p>Zeit</p></div>
-                    <div style="margin-left: auto ; padding-left: 25px; cursor: pointer;"><img src="./image/Dashboard/TitleSection/trash.png" alt=""></div>
+                    <div><i class="fa-regular fa-square" onclick="allCheckToggler(this)" style="cursor: pointer;"></i>
+                    </div>
+                    <div style="margin-left: 25px;"><i class="fa-regular fa-star" onclick="allStarToggler(this)"
+                            style="cursor: pointer;"></i></div>
+                    <div style="margin-left: 60px;">
+                        <p>Patient</p>
+                    </div>
+                    <div style="margin-left: 160px;">
+                        <p>Title</p>
+                    </div>
+                    <div style="margin-left: 355px;">
+                        <p>Status</p>
+                    </div>
+                    <div style="margin-left: 150px;">
+                        <p>Zeit</p>
+                    </div>
+                    <div style="margin-left: auto ; padding-left: 25px; cursor: pointer;"><img
+                            src="./image/Dashboard/TitleSection/trash.png" alt=""></div>
                 </section>
                 <section class="dashboardTableContent1">
                     <table>
@@ -99,7 +112,8 @@
                                 <div><i class="fa-regular fa-star forAllStar" onclick="starToggler(this)"></i></div>
                             </td>
                             <td class="table1SecondColumn">
-                                <p>Max Mustermann <img src="./image/Dashboard/TitleSection/verified-badge.png" alt=""></p>
+                                <p>Max Mustermann <img src="./image/Dashboard/TitleSection/verified-badge.png" alt="">
+                                </p>
                             </td>
                             <td class="table1ThirdColumn">
                                 <p>Rezept Bestellung</p>
@@ -114,11 +128,13 @@
                         </tr>
                         <tr>
                             <td class="table1FirstColumn">
-                                <div><i class="fa-solid fa-square-check forAllCheck" onclick="checkToggler(this)"></i></div>
+                                <div><i class="fa-solid fa-square-check forAllCheck" onclick="checkToggler(this)"></i>
+                                </div>
                                 <div><i class="fa-regular fa-star forAllStar" onclick="starToggler(this)"></i></div>
                             </td>
                             <td class="table1SecondColumn">
-                                <p>Max Mustermann <img src="./image/Dashboard/TitleSection/verified-badge.png" alt=""></p>
+                                <p>Max Mustermann <img src="./image/Dashboard/TitleSection/verified-badge.png" alt="">
+                                </p>
                             </td>
                             <td class="table1ThirdColumn">
                                 <p>Akute Sprechstunde Anfrage</p>
@@ -137,7 +153,8 @@
                                 <div><i class="fa-regular fa-star forAllStar" onclick="starToggler(this)"></i></div>
                             </td>
                             <td class="table1SecondColumn">
-                                <p>Max Mustermann <img src="./image/Dashboard/TitleSection/verified-badge.png" alt=""></p>
+                                <p>Max Mustermann <img src="./image/Dashboard/TitleSection/verified-badge.png" alt="">
+                                </p>
                             </td>
                             <td class="table1ThirdColumn">
                                 <p>Überweisung Bestellung</p>

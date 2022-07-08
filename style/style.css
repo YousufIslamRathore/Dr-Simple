@@ -201,7 +201,7 @@
   align-items: center;
   margin: 0 auto;
 }
-.dashboardNavSection > div > section {
+.dashboardNavSection > div section {
   background-color: #f9fafc;
   width: 333px;
   height: 45px;
@@ -211,6 +211,11 @@
   border: 1px solid #2732401a;
   padding: 15px;
   border-radius: 15px;
+}
+.dashboardNavSection > div form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .dashboardNavSection input {
   width: 100%;
@@ -223,7 +228,7 @@
 .dashboardNavSection input::placeholder {
   color: #9da1a7;
 }
-.dashboardNavSection > div > div {
+.dashboardNavSection > div div {
   background-color: #f9fafc;
   margin-left: 26px;
   width: 45px;
