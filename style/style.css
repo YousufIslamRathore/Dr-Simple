@@ -4,6 +4,16 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+/* input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+  accent-color: #33cccc;
+  color: #ffffff;
+}
+input[type=checkbox]:checked::before {
+  background-color: #33cccc !important;
+  color: #ffffff !important;
+} */
 /* #33CCCC */
 .dashboardWholeBody {
   background-color: #33cccc;
@@ -283,6 +293,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.dashboardTableContent1 input[type="checkbox"] {
+  display: none;
+}
 .dashboardTableContent1 p {
   font-size: 14px;
   display: flex;
@@ -304,6 +317,9 @@
   padding-left: 60px;
   width: 200px;
 }
+/* .dashboardTableContent1 .table1FirstColumn input[type=checkbox]:checked {
+  background-color: #33cccc !important;
+} */
 .dashboardTitleSection i[class~="fa-square"], .dashboardTitleSection i[class~="fa-square-check"], .table1FirstColumn i[class~="fa-square-check"], .table1FirstColumn i[class~="fa-square"] , .table2FirstColumn i[class~="fa-square-check"], .table2FirstColumn i[class~="fa-square"] {
   font-size: 20px;
   color: #979797;
