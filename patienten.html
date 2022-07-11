@@ -28,18 +28,26 @@
         <section class="dashboardStaticSection">
             <img src="./image/logo.png" alt="">
 
-            <div style="color: white;">
-                <p><b>Dashboard</b> | Patienten</p>
+            <div class="dashboardsChangerDiv">
+                <p><span onclick="dashboardRedirector(this)">Dashboard</span> | <span onclick="patientenRedirector(this)" class="activeDashboard">Patienten</span></p>
             </div>
         </section>
         <section class="dashboardAbsoluteSection">
             <header class="dashboardNavSection">
-                <h2>Patienten</h2>
+                <h2>Dashboard</h2>
                 <div>
+
                     <form action="">
                         <section>
                             <img src="./image/Dashboard/Nav Section/search.png" width="20px" height="19px" alt="">
                             <input type="text" placeholder="Suchen">
+                            <select name="" id="">
+                                <option value="Done">Done</option>
+                                <option value="UnDone">UnDone</option>
+                                <option value="Accepted">Accepted</option>
+                                <option value="Declined">Declined</option>
+                                <option value="Star">Star</option>
+                            </select>
                         </section>
                         <div>
                             <img src="./image/Dashboard/Nav Section/setting.png" width="22px" height="22px" alt="">
@@ -82,7 +90,7 @@
 
                                 </td>
                                 <td>
-                                    <p>Angemeldet seit</p>
+                                    <p class="lastParaPatient">Angemeldet seit</p>
 
                                 </td>
                                 <td class="tableSeparator"> | </td>
@@ -113,7 +121,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
 
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
@@ -141,7 +149,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
 
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
@@ -170,7 +178,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
 
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
@@ -196,7 +204,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
 
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
@@ -223,7 +231,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
 
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
@@ -250,7 +258,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
                                 <td class="table2IconSect">
@@ -276,7 +284,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
 
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
@@ -303,7 +311,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
                                 <td class="table2IconSect">
@@ -329,7 +337,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
                                 <td class="table2IconSect">
@@ -355,7 +363,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
                                 <td class="table2IconSect">
@@ -381,7 +389,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
                                 <td class="table2IconSect">
@@ -407,7 +415,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
                                 <td class="table2IconSect">
@@ -433,7 +441,7 @@
 
                                 </td>
                                 <td class="table2FifthColumn">
-                                    <p>Heute 17:12</p>
+                                    <p class="lastParaPatient">Heute 17:12</p>
 
                                 </td>
                                 <td class="tableSeparator hiddenElement"> | </td>
